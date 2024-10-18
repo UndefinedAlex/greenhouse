@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "GreenHouse_React_2",
-    "slug": "GreenHouse_React_2",
+    "scheme": "GreenHouse_React_2",
+    "slug": "greenhouse",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +23,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5807219e-5e5c-4a25-8b93-a2b3385876ad"
+      }
+    },
+    "owner": "alexander_lee",
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
